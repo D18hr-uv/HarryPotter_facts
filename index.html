@@ -6,8 +6,8 @@
     <title>Harry Potter Fun Facts</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e0e0e0;
             color: #333;
             display: flex;
             justify-content: center;
@@ -19,19 +19,27 @@
         .container {
             text-align: center;
             background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+            width: 90%;
+        }
+
+        h1 {
+            color: #4CAF50;
+            margin-bottom: 20px;
         }
 
         button {
             background-color: #4CAF50;
             color: white;
-            padding: 10px 20px;
+            padding: 12px 24px;
             border: none;
-            border-radius: 5px;
+            border-radius: 8px;
             cursor: pointer;
-            font-size: 16px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
         }
 
         button:hover {
@@ -39,8 +47,9 @@
         }
 
         #factDisplay {
-            margin-top: 20px;
-            font-size: 18px;
+            margin-top: 25px;
+            font-size: 20px;
+            color: #555;
         }
     </style>
 </head>
@@ -56,7 +65,12 @@
             "The Hogwarts school motto is 'Draco dormiens nunquam titillandus', which means 'Never tickle a sleeping dragon' in Latin.",
             "The character of Hermione Granger was almost named Hermione Puckle.",
             "The Dementors in the series represent J.K. Rowling's experience with depression.",
-            "The actor who played Moaning Myrtle, Shirley Henderson, was 37 years old at the time of filming 'Harry Potter and the Chamber of Secrets'."
+            "The actor who played Moaning Myrtle, Shirley Henderson, was 37 years old at the time of filming 'Harry Potter and the Chamber of Secrets'.",
+            "The Deathly Hallows symbol is inspired by the Philosopher's Stone, the Elder Wand, and the Invisibility Cloak.",
+            "J.K. Rowling invented Quidditch after a fight with her boyfriend.",
+            "The character of Nearly Headless Nick is based on a real person, Sir Nicholas de Mimsy-Porpington.",
+            "The Ford Anglia used in 'Harry Potter and the Chamber of Secrets' was stolen from the set.",
+            "The actress who played Moaning Myrtle, Shirley Henderson, is the oldest actor to portray a Hogwarts student."
         ];
 
         document.getElementById('generateFactBtn').addEventListener('click', function() {
